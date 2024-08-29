@@ -1,44 +1,41 @@
-# Proyecto-Final-Fundamentos-de-Programacion
+# Final Project - Programming Fundamentals
 
-## Generador de Contraseñas con Python
+## Password Generator with Python
 
-#### Colaboradores
-- Owen Hernández Islas
-- Alan Ponce Castillejos
+### Objective:
+The goal of this program is to encourage the creation of more secure passwords to protect our personal data as individuals.
 
-### Odjetivo:
-La creación de este programa es poder alentar a la creación de contraseñas más seguras para la protección de nuestros datos personales como individuos.
+- Choose the length of the password
+- Choose the type of password (numeric, alphabetic, alphanumeric)
+- Save generated passwords
 
-- Elegir lo largo de la contraseña
-- Elegir tipo de contraseña (numérica, alfabética, alfanumérica)
-- Guardar contraseñas generadas
+### Main Functions:
 
-### Funciones Principales:
+- ##### Numeric Password:
+    - Creates a password consisting only of numbers that do not repeat consecutively.
 
-- ##### Contraseña numérica:
-    - Creación de contraseña que consiste solo en números y estos no se repiten consecutivamente.
+- ##### Alphanumeric Password:
+    - A password that combines numeric and alphabetic characters, including special characters.
 
-- ##### Contraseña alfanumérica:
-    - Contraseña que es la combinación de las numéricas y alfabéticas así como incluye caracteres especiales.
+- ##### Alphabetic Password:
+    - A password type that consists only of lowercase and uppercase letters.
 
-- ##### Contraseña alfabética:
-    -   Tipo de contraseña que consiste solo en letras minúsculas y mayúsculas.
+- ##### Modification:
+    - After generating a password, the user is allowed to make modifications, such as changing elements, replacing within a range, or completely replacing the entire password.
 
-- ##### Modificación:
-    - Se le permitirá al usuario después de haber generado su contraseña realizar modificaciones siendo de elementos, remplazar entre un rango o de plano e remplazar toda la contraseña.
+- ##### Deletion:
+    - The user is allowed to delete a selected password.
 
-- ##### Consulta:
-    - Se le permitirá al usuario eliminar una contraseña seleccionada.
+### Key Points:
 
-### Puntos Claves:
+1. Login system.
+2. Autofill method.
+3. Password length.
+4. Generate passwords (3 types).
+5. Password modification.
+6. Password deletion.
+7. Password storage.
+8. Lists of symbols, numbers, and letters.
 
-1. Sistema de  inicio de sesión.
-2. Método de rellenado.
-3. Tamaño de contraseña.
-4. Generar contraseñas (3 tipos).
-5. Modificación de contraseña.
-6. Eliminación de contraseña.
-7. Guardado de contraseñas.
-8. Listas de signos, numero y letras.
 
-[Codigo](https://github.com/Chava2602/Protecto-Final-Fundamentos-de-Programaci-n/blob/main/ProyectoFinal-GeneradorContrasenias.py)
+[Codigo](https://github.com/KALLIIOZ/Password_Generator)
